@@ -1,5 +1,21 @@
 /* Soluzione qui */
 
+
+/* Bonus */
+/* Mobile Large */
+@media screen and (min-width: 576px) {
+    /* Social Buttons */
+    .social-networks .btn{
+        padding: 10px 30px;
+    }
+    
+/* Immagine in float */
+    .clearfix img{
+        float: left;
+        margin-right: 10px;
+    }
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
     /* Header */
