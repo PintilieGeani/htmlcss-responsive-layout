@@ -28,7 +28,7 @@
     .quick-notes li{
         width: calc(100%/3);
     }
-    /* Buttons */
+    /* Social Buttons */
     .social-networks .btn{
         padding: 10px 50px;
 
@@ -63,12 +63,28 @@
     }
     .recipe-video{
         width: 60%;
+        height: auto;
     }
     .recipe-info{
         width: 40%;
     }
     .quick-notes ul {
         display: block;
+        flex-wrap: none;
 
+    }
+    .quick-notes li{
+        width: 100%
+    }
+    /* Social Buttons */
+    .social-networks .label{
+        display: inline-block;
+    }
+    /* Footer */
+    footer{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        align-items: center;
     }
 }
