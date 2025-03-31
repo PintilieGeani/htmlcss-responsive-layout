@@ -1,1 +1,50 @@
 /* Soluzione qui */
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    /* Header */
+    #topbar{
+        justify-content: flex-start;
+    }
+    /* Fine Header */
+
+
+    /* Main */
+    .container{
+        width: 90%;
+    }
+    /* Recipe Header */
+    .recipe-origin{
+        display: inline;
+    }
+    .recipe-name{
+        font-size: 30px;
+    }
+    /* Recipe Card */
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .quick-notes li{
+        width: calc(100%/3);
+    }
+    /* Buttons */
+    .social-networks .btn{
+        padding: 10px 50px;
+
+    }
+    /* ADS */
+    .ads{
+        display: block;
+    }
+    /* Immagine in float */
+    .clearfix img{
+        float: left;
+        margin-right: 10px;
+    }
+
+
+    /* Fine main */
+
+
+}
